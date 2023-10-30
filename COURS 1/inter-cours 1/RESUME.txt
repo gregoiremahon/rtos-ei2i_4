@@ -1,0 +1,17 @@
+DEMO pour le micro controleur NXP 'LPC1769' 
+avec la carte LPCXpresso1769
+
+Demo simple de prise en main de Keil :
+
+ouvrir les fichiers blinky.map
+
+Example functionality:                                                   
+ - Clock Settings:
+   - XTAL  =  12 MHz
+   - PLL0  = 400 MHz
+   - CCLK  = 100 MHz
+
+ - SysTick Timer est utilisé en IT périodique
+ - 3 LEDs clignotent en fonction de l'état d'une variable i
+
+
