@@ -1,0 +1,4 @@
+
+le fichier de lancement du projet se trouve dans 
+\Demo\ARM7_LPC2368_Keil_RVDS
+

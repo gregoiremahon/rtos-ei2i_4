@@ -1,0 +1,17 @@
+.\bin\list.o: ..\..\Source\list.c
+.\bin\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\bin\list.o: ..\..\Source\include\FreeRTOS.h
+.\bin\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\bin\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\bin\list.o: .\FreeRTOSConfig.h
+.\bin\list.o: C:\Keil_v5\ARM\INC\NXP\LPC17xx\LPC17xx.h
+.\bin\list.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h
+.\bin\list.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\bin\list.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\bin\list.o: C:\Keil_v5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h
+.\bin\list.o: ..\..\Source\include\projdefs.h
+.\bin\list.o: ..\..\Source\include\portable.h
+.\bin\list.o: ..\..\Source\include\deprecated_definitions.h
+.\bin\list.o: ..\..\Source\portable\RVDS\ARM_CM3\portmacro.h
+.\bin\list.o: ..\..\Source\include\mpu_wrappers.h
+.\bin\list.o: ..\..\Source\include\list.h
