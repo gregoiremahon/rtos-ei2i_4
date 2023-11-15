@@ -1,0 +1,13 @@
+--cpu Cortex-M3
+".\bin\main.o"
+".\bin\mytasks.o"
+".\bin\tasks.o"
+".\bin\list.o"
+".\bin\queue.o"
+".\bin\heap_2.o"
+".\bin\port.o"
+".\bin\keil_freertos_startup_lpc17xx40xx.o"
+".\bin\system_lpc17xx.o"
+--strict --scatter ".\bin\RTOSDemo.sct"
+--summary_stderr --info summarysizes --symbols
+--list ".\listing_output\RTOSDemo.map" -o .\bin\RTOSDemo.axf

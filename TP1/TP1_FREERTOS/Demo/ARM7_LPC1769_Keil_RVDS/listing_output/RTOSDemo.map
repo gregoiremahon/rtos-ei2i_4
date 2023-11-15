@@ -1,0 +1,415 @@
+Component: ARM Compiler 5.06 update 6 (build 750) Tool: armlink [4d35ed]
+
+==============================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    RESET                                    0x00000000   Section      204  keil_freertos_startup_lpc17xx40xx.o(RESET)
+    ../clib/angel/boardlib.s                 0x00000000   Number         0  boardinit1.o ABSOLUTE
+    ../clib/angel/boardlib.s                 0x00000000   Number         0  boardshut.o ABSOLUTE
+    ../clib/angel/boardlib.s                 0x00000000   Number         0  boardinit2.o ABSOLUTE
+    ../clib/angel/boardlib.s                 0x00000000   Number         0  boardinit3.o ABSOLUTE
+    ../clib/angel/handlers.s                 0x00000000   Number         0  __scatter_copy.o ABSOLUTE
+    ../clib/angel/handlers.s                 0x00000000   Number         0  __scatter_zi.o ABSOLUTE
+    ../clib/angel/kernel.s                   0x00000000   Number         0  rtexit2.o ABSOLUTE
+    ../clib/angel/kernel.s                   0x00000000   Number         0  __rtentry4.o ABSOLUTE
+    ../clib/angel/kernel.s                   0x00000000   Number         0  __rtentry2.o ABSOLUTE
+    ../clib/angel/kernel.s                   0x00000000   Number         0  rtexit.o ABSOLUTE
+    ../clib/angel/kernel.s                   0x00000000   Number         0  __rtentry.o ABSOLUTE
+    ../clib/angel/rt.s                       0x00000000   Number         0  aeabi_ldiv0.o ABSOLUTE
+    ../clib/angel/rt.s                       0x00000000   Number         0  aeabi_ldiv0_sigfpe.o ABSOLUTE
+    ../clib/angel/rt.s                       0x00000000   Number         0  rt_raise.o ABSOLUTE
+    ../clib/angel/rt.s                       0x00000000   Number         0  rt_div0.o ABSOLUTE
+    ../clib/angel/scatter.s                  0x00000000   Number         0  __scatter.o ABSOLUTE
+    ../clib/angel/startup.s                  0x00000000   Number         0  __main.o ABSOLUTE
+    ../clib/angel/sys.s                      0x00000000   Number         0  use_no_semi.o ABSOLUTE
+    ../clib/angel/sys.s                      0x00000000   Number         0  sys_stackheap_outer.o ABSOLUTE
+    ../clib/angel/sys.s                      0x00000000   Number         0  indicate_semi.o ABSOLUTE
+    ../clib/angel/sys.s                      0x00000000   Number         0  libspace.o ABSOLUTE
+    ../clib/angel/sysapp.c                   0x00000000   Number         0  sys_command.o ABSOLUTE
+    ../clib/angel/sysapp.c                   0x00000000   Number         0  sys_wrch.o ABSOLUTE
+    ../clib/angel/sysapp.c                   0x00000000   Number         0  sys_exit.o ABSOLUTE
+    ../clib/armsys.c                         0x00000000   Number         0  argv_veneer.o ABSOLUTE
+    ../clib/armsys.c                         0x00000000   Number         0  argv_veneer.o ABSOLUTE
+    ../clib/armsys.c                         0x00000000   Number         0  no_argv.o ABSOLUTE
+    ../clib/armsys.c                         0x00000000   Number         0  _get_argv_nomalloc.o ABSOLUTE
+    ../clib/heapalloc.c                      0x00000000   Number         0  hrguard.o ABSOLUTE
+    ../clib/heapaux.c                        0x00000000   Number         0  heapauxi.o ABSOLUTE
+    ../clib/libinit.s                        0x00000000   Number         0  libshutdown2.o ABSOLUTE
+    ../clib/libinit.s                        0x00000000   Number         0  libshutdown.o ABSOLUTE
+    ../clib/libinit.s                        0x00000000   Number         0  libinit2.o ABSOLUTE
+    ../clib/libinit.s                        0x00000000   Number         0  libinit.o ABSOLUTE
+    ../clib/longlong.s                       0x00000000   Number         0  lludivv7m.o ABSOLUTE
+    ../clib/memcpset.s                       0x00000000   Number         0  rt_memcpy_v6.o ABSOLUTE
+    ../clib/memcpset.s                       0x00000000   Number         0  rt_memcpy_w.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_rtmem_outer.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_general.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_rtred_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_abrt_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  __raise.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_fpe_formal.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_fpe_outer.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_fpe_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_rtmem_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_other.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_segv_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_cppl_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_pvfn_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_stak_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_rtmem_formal.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_exit.o ABSOLUTE
+    ../clib/signal.s                         0x00000000   Number         0  defsig.o ABSOLUTE
+    ../clib/stdlib.c                         0x00000000   Number         0  exit.o ABSOLUTE
+    ../fplib/fpinit.s                        0x00000000   Number         0  fpinit.o ABSOLUTE
+    ..\..\Source\list.c                      0x00000000   Number         0  list.o ABSOLUTE
+    ..\..\Source\portable\MemMang\heap_2.c   0x00000000   Number         0  heap_2.o ABSOLUTE
+    ..\..\Source\portable\RVDS\ARM_CM3\port.c 0x00000000   Number         0  port.o ABSOLUTE
+    ..\..\Source\queue.c                     0x00000000   Number         0  queue.o ABSOLUTE
+    ..\..\Source\tasks.c                     0x00000000   Number         0  tasks.o ABSOLUTE
+    ..\\..\\Source\\list.c                   0x00000000   Number         0  list.o ABSOLUTE
+    ..\\..\\Source\\portable\\MemMang\\heap_2.c 0x00000000   Number         0  heap_2.o ABSOLUTE
+    ..\\..\\Source\\portable\\RVDS\\ARM_CM3\\port.c 0x00000000   Number         0  port.o ABSOLUTE
+    ..\\..\\Source\\queue.c                  0x00000000   Number         0  queue.o ABSOLUTE
+    ..\\..\\Source\\tasks.c                  0x00000000   Number         0  tasks.o ABSOLUTE
+    dc.s                                     0x00000000   Number         0  dc.o ABSOLUTE
+    main.c                                   0x00000000   Number         0  main.o ABSOLUTE
+    main.c                                   0x00000000   Number         0  main.o ABSOLUTE
+    myTasks.c                                0x00000000   Number         0  mytasks.o ABSOLUTE
+    myTasks.c                                0x00000000   Number         0  mytasks.o ABSOLUTE
+    start\\system_LPC17xx.c                  0x00000000   Number         0  system_lpc17xx.o ABSOLUTE
+    start\keil_freertos_startup_lpc17xx40xx.s 0x00000000   Number         0  keil_freertos_startup_lpc17xx40xx.o ABSOLUTE
+    start\system_LPC17xx.c                   0x00000000   Number         0  system_lpc17xx.o ABSOLUTE
+    !!!main                                  0x000000cc   Section        8  __main.o(!!!main)
+    !!!scatter                               0x000000d4   Section       52  __scatter.o(!!!scatter)
+    !!handler_copy                           0x00000108   Section       26  __scatter_copy.o(!!handler_copy)
+    !!handler_zi                             0x00000124   Section       28  __scatter_zi.o(!!handler_zi)
+    .ARM.Collect$$libinit$$00000000          0x00000140   Section        2  libinit.o(.ARM.Collect$$libinit$$00000000)
+    .ARM.Collect$$libinit$$00000002          0x00000142   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000002)
+    .ARM.Collect$$libinit$$00000004          0x00000142   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000004)
+    .ARM.Collect$$libinit$$0000000A          0x00000142   Section        0  libinit2.o(.ARM.Collect$$libinit$$0000000A)
+    .ARM.Collect$$libinit$$0000000C          0x00000142   Section        0  libinit2.o(.ARM.Collect$$libinit$$0000000C)
+    .ARM.Collect$$libinit$$0000000E          0x00000142   Section        0  libinit2.o(.ARM.Collect$$libinit$$0000000E)
+    .ARM.Collect$$libinit$$00000011          0x00000142   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000011)
+    .ARM.Collect$$libinit$$00000013          0x00000142   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000013)
+    .ARM.Collect$$libinit$$00000015          0x00000142   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000015)
+    .ARM.Collect$$libinit$$00000017          0x00000142   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000017)
+    .ARM.Collect$$libinit$$00000019          0x00000142   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000019)
+    .ARM.Collect$$libinit$$0000001B          0x00000142   Section        0  libinit2.o(.ARM.Collect$$libinit$$0000001B)
+    .ARM.Collect$$libinit$$0000001D          0x00000142   Section        0  libinit2.o(.ARM.Collect$$libinit$$0000001D)
+    .ARM.Collect$$libinit$$0000001F          0x00000142   Section        0  libinit2.o(.ARM.Collect$$libinit$$0000001F)
+    .ARM.Collect$$libinit$$00000021          0x00000142   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000021)
+    .ARM.Collect$$libinit$$00000023          0x00000142   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000023)
+    .ARM.Collect$$libinit$$00000025          0x00000142   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000025)
+    .ARM.Collect$$libinit$$0000002C          0x00000142   Section        0  libinit2.o(.ARM.Collect$$libinit$$0000002C)
+    .ARM.Collect$$libinit$$0000002E          0x00000142   Section        0  libinit2.o(.ARM.Collect$$libinit$$0000002E)
+    .ARM.Collect$$libinit$$00000030          0x00000142   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000030)
+    .ARM.Collect$$libinit$$00000032          0x00000142   Section        0  libinit2.o(.ARM.Collect$$libinit$$00000032)
+    .ARM.Collect$$libinit$$00000033          0x00000142   Section        2  libinit2.o(.ARM.Collect$$libinit$$00000033)
+    .ARM.Collect$$libshutdown$$00000000      0x00000144   Section        2  libshutdown.o(.ARM.Collect$$libshutdown$$00000000)
+    .ARM.Collect$$libshutdown$$00000002      0x00000146   Section        0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000002)
+    .ARM.Collect$$libshutdown$$00000004      0x00000146   Section        0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000004)
+    .ARM.Collect$$libshutdown$$00000007      0x00000146   Section        0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000007)
+    .ARM.Collect$$libshutdown$$0000000A      0x00000146   Section        0  libshutdown2.o(.ARM.Collect$$libshutdown$$0000000A)
+    .ARM.Collect$$libshutdown$$0000000C      0x00000146   Section        0  libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C)
+    .ARM.Collect$$libshutdown$$0000000F      0x00000146   Section        0  libshutdown2.o(.ARM.Collect$$libshutdown$$0000000F)
+    .ARM.Collect$$libshutdown$$00000010      0x00000146   Section        2  libshutdown2.o(.ARM.Collect$$libshutdown$$00000010)
+    .ARM.Collect$$rtentry$$00000000          0x00000148   Section        0  __rtentry.o(.ARM.Collect$$rtentry$$00000000)
+    .ARM.Collect$$rtentry$$00000002          0x00000148   Section        0  __rtentry2.o(.ARM.Collect$$rtentry$$00000002)
+    .ARM.Collect$$rtentry$$00000004          0x00000148   Section        6  __rtentry4.o(.ARM.Collect$$rtentry$$00000004)
+    .ARM.Collect$$rtentry$$00000009          0x0000014e   Section        0  __rtentry2.o(.ARM.Collect$$rtentry$$00000009)
+    .ARM.Collect$$rtentry$$0000000A          0x0000014e   Section        4  __rtentry2.o(.ARM.Collect$$rtentry$$0000000A)
+    .ARM.Collect$$rtentry$$0000000C          0x00000152   Section        0  __rtentry2.o(.ARM.Collect$$rtentry$$0000000C)
+    .ARM.Collect$$rtentry$$0000000D          0x00000152   Section        8  __rtentry2.o(.ARM.Collect$$rtentry$$0000000D)
+    .ARM.Collect$$rtexit$$00000000           0x0000015a   Section        2  rtexit.o(.ARM.Collect$$rtexit$$00000000)
+    .ARM.Collect$$rtexit$$00000002           0x0000015c   Section        0  rtexit2.o(.ARM.Collect$$rtexit$$00000002)
+    .ARM.Collect$$rtexit$$00000003           0x0000015c   Section        4  rtexit2.o(.ARM.Collect$$rtexit$$00000003)
+    .ARM.Collect$$rtexit$$00000004           0x00000160   Section        6  rtexit2.o(.ARM.Collect$$rtexit$$00000004)
+    .emb_text                                0x00000168   Section      150  port.o(.emb_text)
+    .text                                    0x00000200   Section        0  main.o(.text)
+    prvSetupHardware                         0x00000203   Thumb Code    40  main.o(.text)
+    .text                                    0x00000264   Section        0  list.o(.text)
+    .text                                    0x000002f8   Section        2  use_no_semi.o(.text)
+    .text                                    0x000002fa   Section        0  indicate_semi.o(.text)
+    .ARM.__at_0x02FC                         0x000002fc   Section        4  keil_freertos_startup_lpc17xx40xx.o(.ARM.__at_0x02FC)
+    .text                                    0x00000300   Section        0  mytasks.o(.text)
+    vLed4Task                                0x0000034b   Thumb Code    32  mytasks.o(.text)
+    vLed3Task                                0x0000036b   Thumb Code    32  mytasks.o(.text)
+    vLed2Task                                0x0000038b   Thumb Code    32  mytasks.o(.text)
+    vLed1Task                                0x000003ab   Thumb Code    34  mytasks.o(.text)
+    .text                                    0x00000454   Section        0  tasks.o(.text)
+    prvInitialiseTaskLists                   0x00000455   Thumb Code    70  tasks.o(.text)
+    prvAddNewTaskToReadyList                 0x0000049b   Thumb Code   150  tasks.o(.text)
+    prvInitialiseNewTask                     0x00000531   Thumb Code   138  tasks.o(.text)
+    prvResetNextTaskUnblockTime              0x0000061b   Thumb Code    42  tasks.o(.text)
+    prvDeleteTCB                             0x00000645   Thumb Code    18  tasks.o(.text)
+    prvAddCurrentTaskToDelayedList           0x00000905   Thumb Code   124  tasks.o(.text)
+    prvTaskIsTaskSuspended                   0x00000c49   Thumb Code    56  tasks.o(.text)
+    prvCheckTasksWaitingTermination          0x00000daf   Thumb Code    60  tasks.o(.text)
+    prvIdleTask                              0x00000deb   Thumb Code    32  tasks.o(.text)
+    .text                                    0x00001400   Section        0  heap_2.o(.text)
+    prvHeapInit                              0x00001401   Thumb Code    42  heap_2.o(.text)
+    .text                                    0x00001524   Section        0  port.o(.text)
+    prvTaskExitError                         0x00001525   Thumb Code    22  port.o(.text)
+    .text                                    0x00001610   Section       64  keil_freertos_startup_lpc17xx40xx.o(.text)
+    .text                                    0x00001650   Section        0  system_lpc17xx.o(.text)
+    .text                                    0x00001944   Section      238  lludivv7m.o(.text)
+    .text                                    0x00001a32   Section        0  heapauxi.o(.text)
+    .text                                    0x00001a38   Section       74  sys_stackheap_outer.o(.text)
+    .text                                    0x00001a82   Section        0  exit.o(.text)
+    .text                                    0x00001a94   Section        8  libspace.o(.text)
+    .text                                    0x00001a9c   Section        0  sys_exit.o(.text)
+    .data                                    0x10000000   Section        2  mytasks.o(.data)
+    var_static_fonction                      0x10000001   Data           1  mytasks.o(.data)
+    .data                                    0x10000004   Section       60  tasks.o(.data)
+    pxDelayedTaskList                        0x10000008   Data           4  tasks.o(.data)
+    pxOverflowDelayedTaskList                0x1000000c   Data           4  tasks.o(.data)
+    uxDeletedTasksWaitingCleanUp             0x10000010   Data           4  tasks.o(.data)
+    uxCurrentNumberOfTasks                   0x10000014   Data           4  tasks.o(.data)
+    xTickCount                               0x10000018   Data           4  tasks.o(.data)
+    uxTopReadyPriority                       0x1000001c   Data           4  tasks.o(.data)
+    xSchedulerRunning                        0x10000020   Data           4  tasks.o(.data)
+    uxPendedTicks                            0x10000024   Data           4  tasks.o(.data)
+    xYieldPending                            0x10000028   Data           4  tasks.o(.data)
+    xNumOfOverflows                          0x1000002c   Data           4  tasks.o(.data)
+    uxTaskNumber                             0x10000030   Data           4  tasks.o(.data)
+    xNextTaskUnblockTime                     0x10000034   Data           4  tasks.o(.data)
+    xIdleTaskHandle                          0x10000038   Data           4  tasks.o(.data)
+    uxSchedulerSuspended                     0x1000003c   Data           4  tasks.o(.data)
+    .data                                    0x10000040   Section       24  heap_2.o(.data)
+    xStart                                   0x10000040   Data           8  heap_2.o(.data)
+    xEnd                                     0x10000048   Data           8  heap_2.o(.data)
+    xFreeBytesRemaining                      0x10000050   Data           4  heap_2.o(.data)
+    xHeapHasBeenInitialised                  0x10000054   Data           4  heap_2.o(.data)
+    .data                                    0x10000058   Section        4  port.o(.data)
+    uxCriticalNesting                        0x10000058   Data           4  port.o(.data)
+    .data                                    0x1000005c   Section        4  system_lpc17xx.o(.data)
+    .bss                                     0x10000060   Section      180  tasks.o(.bss)
+    pxReadyTasksLists                        0x10000060   Data          80  tasks.o(.bss)
+    xDelayedTaskList1                        0x100000b0   Data          20  tasks.o(.bss)
+    xDelayedTaskList2                        0x100000c4   Data          20  tasks.o(.bss)
+    xPendingReadyList                        0x100000d8   Data          20  tasks.o(.bss)
+    xTasksWaitingTermination                 0x100000ec   Data          20  tasks.o(.bss)
+    xSuspendedTaskList                       0x10000100   Data          20  tasks.o(.bss)
+    .bss                                     0x10000114   Section    12288  heap_2.o(.bss)
+    ucHeap                                   0x10000114   Data       12288  heap_2.o(.bss)
+    .bss                                     0x10003114   Section       96  libspace.o(.bss)
+    HEAP                                     0x10003178   Section    12288  keil_freertos_startup_lpc17xx40xx.o(HEAP)
+    Heap_Mem                                 0x10003178   Data       12288  keil_freertos_startup_lpc17xx40xx.o(HEAP)
+    STACK                                    0x10006178   Section      512  keil_freertos_startup_lpc17xx40xx.o(STACK)
+    Stack_Mem                                0x10006178   Data         512  keil_freertos_startup_lpc17xx40xx.o(STACK)
+    __initial_sp                             0x10006378   Data           0  keil_freertos_startup_lpc17xx40xx.o(STACK)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THM_ISAv4$P$D$K$B$S$PE$A:L22UL41UL21$X:L11$S22US41US21$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$ROPI$EBA8$UX$STANDARDLIB$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    __ARM_use_no_argv                        0x00000000   Number         0  main.o ABSOLUTE
+    __Vectors                                0x00000000   Data           4  keil_freertos_startup_lpc17xx40xx.o(RESET)
+    __ARM_exceptions_init                     - Undefined Weak Reference
+    __alloca_initialize                       - Undefined Weak Reference
+    __arm_preinit_                            - Undefined Weak Reference
+    __cpp_initialize__aeabi_                  - Undefined Weak Reference
+    __cxa_finalize                            - Undefined Weak Reference
+    __rt_locale                               - Undefined Weak Reference
+    __sigvec_lookup                           - Undefined Weak Reference
+    _atexit_init                              - Undefined Weak Reference
+    _call_atexit_fns                          - Undefined Weak Reference
+    _clock_init                               - Undefined Weak Reference
+    _fp_trap_init                             - Undefined Weak Reference
+    _fp_trap_shutdown                         - Undefined Weak Reference
+    _get_lc_collate                           - Undefined Weak Reference
+    _get_lc_ctype                             - Undefined Weak Reference
+    _get_lc_monetary                          - Undefined Weak Reference
+    _get_lc_numeric                           - Undefined Weak Reference
+    _get_lc_time                              - Undefined Weak Reference
+    _getenv_init                              - Undefined Weak Reference
+    _handle_redirection                       - Undefined Weak Reference
+    _init_alloc                               - Undefined Weak Reference
+    _init_user_alloc                          - Undefined Weak Reference
+    _initio                                   - Undefined Weak Reference
+    _rand_init                                - Undefined Weak Reference
+    _signal_finish                            - Undefined Weak Reference
+    _signal_init                              - Undefined Weak Reference
+    _terminate_alloc                          - Undefined Weak Reference
+    _terminate_user_alloc                     - Undefined Weak Reference
+    _terminateio                              - Undefined Weak Reference
+    __main                                   0x000000cd   Thumb Code     8  __main.o(!!!main)
+    __scatterload                            0x000000d5   Thumb Code     0  __scatter.o(!!!scatter)
+    __scatterload_rt2                        0x000000d5   Thumb Code    44  __scatter.o(!!!scatter)
+    __scatterload_rt2_thumb_only             0x000000d5   Thumb Code     0  __scatter.o(!!!scatter)
+    __scatterload_null                       0x000000e3   Thumb Code     0  __scatter.o(!!!scatter)
+    __scatterload_copy                       0x00000109   Thumb Code    26  __scatter_copy.o(!!handler_copy)
+    __scatterload_zeroinit                   0x00000125   Thumb Code    28  __scatter_zi.o(!!handler_zi)
+    __rt_lib_init                            0x00000141   Thumb Code     0  libinit.o(.ARM.Collect$$libinit$$00000000)
+    __rt_lib_init_alloca_1                   0x00000143   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$0000002E)
+    __rt_lib_init_argv_1                     0x00000143   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$0000002C)
+    __rt_lib_init_atexit_1                   0x00000143   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$0000001B)
+    __rt_lib_init_clock_1                    0x00000143   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$00000021)
+    __rt_lib_init_cpp_1                      0x00000143   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$00000032)
+    __rt_lib_init_exceptions_1               0x00000143   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$00000030)
+    __rt_lib_init_fp_1                       0x00000143   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$00000002)
+    __rt_lib_init_fp_trap_1                  0x00000143   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$0000001F)
+    __rt_lib_init_getenv_1                   0x00000143   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$00000023)
+    __rt_lib_init_heap_1                     0x00000143   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$0000000A)
+    __rt_lib_init_lc_collate_1               0x00000143   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$00000011)
+    __rt_lib_init_lc_ctype_1                 0x00000143   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$00000013)
+    __rt_lib_init_lc_monetary_1              0x00000143   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$00000015)
+    __rt_lib_init_lc_numeric_1               0x00000143   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$00000017)
+    __rt_lib_init_lc_time_1                  0x00000143   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$00000019)
+    __rt_lib_init_preinit_1                  0x00000143   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$00000004)
+    __rt_lib_init_rand_1                     0x00000143   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$0000000E)
+    __rt_lib_init_return                     0x00000143   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$00000033)
+    __rt_lib_init_signal_1                   0x00000143   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$0000001D)
+    __rt_lib_init_stdio_1                    0x00000143   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$00000025)
+    __rt_lib_init_user_alloc_1               0x00000143   Thumb Code     0  libinit2.o(.ARM.Collect$$libinit$$0000000C)
+    __rt_lib_shutdown                        0x00000145   Thumb Code     0  libshutdown.o(.ARM.Collect$$libshutdown$$00000000)
+    __rt_lib_shutdown_cpp_1                  0x00000147   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000002)
+    __rt_lib_shutdown_fp_trap_1              0x00000147   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000007)
+    __rt_lib_shutdown_heap_1                 0x00000147   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$0000000F)
+    __rt_lib_shutdown_return                 0x00000147   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000010)
+    __rt_lib_shutdown_signal_1               0x00000147   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$0000000A)
+    __rt_lib_shutdown_stdio_1                0x00000147   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$00000004)
+    __rt_lib_shutdown_user_alloc_1           0x00000147   Thumb Code     0  libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C)
+    __rt_entry                               0x00000149   Thumb Code     0  __rtentry.o(.ARM.Collect$$rtentry$$00000000)
+    __rt_entry_presh_1                       0x00000149   Thumb Code     0  __rtentry2.o(.ARM.Collect$$rtentry$$00000002)
+    __rt_entry_sh                            0x00000149   Thumb Code     0  __rtentry4.o(.ARM.Collect$$rtentry$$00000004)
+    __rt_entry_li                            0x0000014f   Thumb Code     0  __rtentry2.o(.ARM.Collect$$rtentry$$0000000A)
+    __rt_entry_postsh_1                      0x0000014f   Thumb Code     0  __rtentry2.o(.ARM.Collect$$rtentry$$00000009)
+    __rt_entry_main                          0x00000153   Thumb Code     0  __rtentry2.o(.ARM.Collect$$rtentry$$0000000D)
+    __rt_entry_postli_1                      0x00000153   Thumb Code     0  __rtentry2.o(.ARM.Collect$$rtentry$$0000000C)
+    __rt_exit                                0x0000015b   Thumb Code     0  rtexit.o(.ARM.Collect$$rtexit$$00000000)
+    __rt_exit_ls                             0x0000015d   Thumb Code     0  rtexit2.o(.ARM.Collect$$rtexit$$00000003)
+    __rt_exit_prels_1                        0x0000015d   Thumb Code     0  rtexit2.o(.ARM.Collect$$rtexit$$00000002)
+    __rt_exit_exit                           0x00000161   Thumb Code     0  rtexit2.o(.ARM.Collect$$rtexit$$00000004)
+    SVC_Handler                              0x00000169   Thumb Code    32  port.o(.emb_text)
+    __asm___6_port_c_39a90d8d__prvStartFirstTask 0x0000018d   Thumb Code    28  port.o(.emb_text)
+    PendSV_Handler                           0x000001ad   Thumb Code    72  port.o(.emb_text)
+    vPortGetIPSR                             0x000001f9   Thumb Code     6  port.o(.emb_text)
+    gestion_abort                            0x00000201   Thumb Code     2  main.o(.text)
+    main                                     0x0000022b   Thumb Code    50  main.o(.text)
+    vListInitialise                          0x00000265   Thumb Code    26  list.o(.text)
+    vListInitialiseItem                      0x0000027f   Thumb Code     6  list.o(.text)
+    vListInsertEnd                           0x00000285   Thumb Code    24  list.o(.text)
+    vListInsert                              0x0000029d   Thumb Code    52  list.o(.text)
+    uxListRemove                             0x000002d1   Thumb Code    40  list.o(.text)
+    __I$use$semihosting                      0x000002f9   Thumb Code     0  use_no_semi.o(.text)
+    __use_no_semihosting_swi                 0x000002f9   Thumb Code     2  use_no_semi.o(.text)
+    __semihosting_library_function           0x000002fb   Thumb Code     0  indicate_semi.o(.text)
+    allume_num_tache                         0x00000301   Thumb Code    74  mytasks.o(.text)
+    vInit_myTasks                            0x000003cd   Thumb Code    78  mytasks.o(.text)
+    xTaskCreate                              0x000005bb   Thumb Code    96  tasks.o(.text)
+    vTaskDelete                              0x00000657   Thumb Code   166  tasks.o(.text)
+    xTaskIncrementTick                       0x000006fd   Thumb Code   238  tasks.o(.text)
+    xTaskResumeAll                           0x000007eb   Thumb Code   282  tasks.o(.text)
+    vTaskSuspendAll                          0x00000981   Thumb Code    12  tasks.o(.text)
+    vTaskDelayUntil                          0x0000098d   Thumb Code   106  tasks.o(.text)
+    vTaskDelay                               0x000009f7   Thumb Code    46  tasks.o(.text)
+    uxTaskPriorityGet                        0x00000a25   Thumb Code    30  tasks.o(.text)
+    uxTaskPriorityGetFromISR                 0x00000a43   Thumb Code    52  tasks.o(.text)
+    vTaskPrioritySet                         0x00000a77   Thumb Code   216  tasks.o(.text)
+    vTaskSwitchContext                       0x00000b4f   Thumb Code    76  tasks.o(.text)
+    vTaskSuspend                             0x00000b9b   Thumb Code   174  tasks.o(.text)
+    vTaskResume                              0x00000c81   Thumb Code   172  tasks.o(.text)
+    xTaskResumeFromISR                       0x00000d2d   Thumb Code   130  tasks.o(.text)
+    vTaskStartScheduler                      0x00000e0b   Thumb Code    72  tasks.o(.text)
+    vTaskEndScheduler                        0x00000e53   Thumb Code    32  tasks.o(.text)
+    xTaskGetTickCount                        0x00000e73   Thumb Code     6  tasks.o(.text)
+    xTaskGetTickCountFromISR                 0x00000e79   Thumb Code     8  tasks.o(.text)
+    uxTaskGetNumberOfTasks                   0x00000e81   Thumb Code     6  tasks.o(.text)
+    pcTaskGetName                            0x00000e87   Thumb Code    20  tasks.o(.text)
+    vTaskPlaceOnEventList                    0x00000e9b   Thumb Code    28  tasks.o(.text)
+    vTaskPlaceOnUnorderedEventList           0x00000eb7   Thumb Code    40  tasks.o(.text)
+    xTaskRemoveFromEventList                 0x00000edf   Thumb Code   104  tasks.o(.text)
+    vTaskRemoveFromUnorderedEventList        0x00000f47   Thumb Code    82  tasks.o(.text)
+    vTaskSetTimeOutState                     0x00000f99   Thumb Code    26  tasks.o(.text)
+    vTaskInternalSetTimeOutState             0x00000fb3   Thumb Code    14  tasks.o(.text)
+    xTaskCheckForTimeOut                     0x00000fc1   Thumb Code    84  tasks.o(.text)
+    vTaskMissedYield                         0x00001015   Thumb Code     8  tasks.o(.text)
+    uxTaskResetEventItemValue                0x0000101d   Thumb Code    24  tasks.o(.text)
+    ulTaskNotifyTake                         0x00001035   Thumb Code   108  tasks.o(.text)
+    xTaskNotifyWait                          0x000010a1   Thumb Code   226  tasks.o(.text)
+    xTaskGenericNotify                       0x00001183   Thumb Code   180  tasks.o(.text)
+    xTaskGenericNotifyFromISR                0x00001237   Thumb Code   228  tasks.o(.text)
+    vTaskNotifyGiveFromISR                   0x0000131b   Thumb Code   152  tasks.o(.text)
+    xTaskNotifyStateClear                    0x000013b3   Thumb Code    48  tasks.o(.text)
+    pvPortMalloc                             0x0000142b   Thumb Code   166  heap_2.o(.text)
+    vPortFree                                0x000014d1   Thumb Code    56  heap_2.o(.text)
+    xPortGetFreeHeapSize                     0x00001509   Thumb Code     6  heap_2.o(.text)
+    vPortInitialiseBlocks                    0x0000150f   Thumb Code     2  heap_2.o(.text)
+    pxPortInitialiseStack                    0x0000153b   Thumb Code    30  port.o(.text)
+    vPortSetupTimerInterrupt                 0x00001559   Thumb Code    22  port.o(.text)
+    xPortStartScheduler                      0x0000156f   Thumb Code    42  port.o(.text)
+    vPortEndScheduler                        0x00001599   Thumb Code     2  port.o(.text)
+    vPortEnterCritical                       0x0000159b   Thumb Code    30  port.o(.text)
+    vPortExitCritical                        0x000015b9   Thumb Code    28  port.o(.text)
+    SysTick_Handler                          0x000015d5   Thumb Code    48  port.o(.text)
+    Reset_Handler                            0x00001611   Thumb Code     8  keil_freertos_startup_lpc17xx40xx.o(.text)
+    NMI_Handler                              0x00001619   Thumb Code     2  keil_freertos_startup_lpc17xx40xx.o(.text)
+    HardFault_Handler                        0x0000161b   Thumb Code     2  keil_freertos_startup_lpc17xx40xx.o(.text)
+    MemManage_Handler                        0x0000161d   Thumb Code     2  keil_freertos_startup_lpc17xx40xx.o(.text)
+    BusFault_Handler                         0x0000161f   Thumb Code     2  keil_freertos_startup_lpc17xx40xx.o(.text)
+    UsageFault_Handler                       0x00001621   Thumb Code     2  keil_freertos_startup_lpc17xx40xx.o(.text)
+    DebugMon_Handler                         0x00001625   Thumb Code     2  keil_freertos_startup_lpc17xx40xx.o(.text)
+    ADC_IRQHandler                           0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    BOD_IRQHandler                           0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    CANActivity_IRQHandler                   0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    CAN_IRQHandler                           0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    DMA_IRQHandler                           0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    EINT0_IRQHandler                         0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    EINT1_IRQHandler                         0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    EINT2_IRQHandler                         0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    EINT3_IRQHandler                         0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    ENET_IRQHandler                          0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    I2C0_IRQHandler                          0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    I2C1_IRQHandler                          0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    I2C2_IRQHandler                          0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    I2S_IRQHandler                           0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    MCPWM_IRQHandler                         0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    PLL0_IRQHandler                          0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    PLL1_IRQHandler                          0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    PWM1_IRQHandler                          0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    QEI_IRQHandler                           0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    RIT_IRQHandler                           0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    RTC_IRQHandler                           0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    SPI_IRQHandler                           0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    SSP0_IRQHandler                          0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    SSP1_IRQHandler                          0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    TIMER0_IRQHandler                        0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    TIMER1_IRQHandler                        0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    TIMER2_IRQHandler                        0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    TIMER3_IRQHandler                        0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    UART0_IRQHandler                         0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    UART1_IRQHandler                         0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    UART2_IRQHandler                         0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    UART3_IRQHandler                         0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    USBActivity_IRQHandler                   0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    USB_IRQHandler                           0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    WDT_IRQHandler                           0x0000162b   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    __user_initial_stackheap                 0x0000162d   Thumb Code     0  keil_freertos_startup_lpc17xx40xx.o(.text)
+    SystemCoreClockUpdate                    0x00001651   Thumb Code   408  system_lpc17xx.o(.text)
+    SystemInit                               0x000017e9   Thumb Code   318  system_lpc17xx.o(.text)
+    __aeabi_uldivmod                         0x00001945   Thumb Code     0  lludivv7m.o(.text)
+    _ll_udiv                                 0x00001945   Thumb Code   238  lludivv7m.o(.text)
+    __use_two_region_memory                  0x00001a33   Thumb Code     2  heapauxi.o(.text)
+    __rt_heap_escrow$2region                 0x00001a35   Thumb Code     2  heapauxi.o(.text)
+    __rt_heap_expand$2region                 0x00001a37   Thumb Code     2  heapauxi.o(.text)
+    __user_setup_stackheap                   0x00001a39   Thumb Code    74  sys_stackheap_outer.o(.text)
+    exit                                     0x00001a83   Thumb Code    18  exit.o(.text)
+    __user_libspace                          0x00001a95   Thumb Code     8  libspace.o(.text)
+    __user_perproc_libspace                  0x00001a95   Thumb Code     0  libspace.o(.text)
+    __user_perthread_libspace                0x00001a95   Thumb Code     0  libspace.o(.text)
+    _sys_exit                                0x00001a9d   Thumb Code     8  sys_exit.o(.text)
+    Region$$Table$$Base                      0x00001aa8   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x00001ac8   Number         0  anon$$obj.o(Region$$Table)
+    argument                                 0x10000000   Data           1  mytasks.o(.data)
+    pxCurrentTCB                             0x10000004   Data           4  tasks.o(.data)
+    SystemCoreClock                          0x1000005c   Data           4  system_lpc17xx.o(.data)
+    __libspace_start                         0x10003114   Data          96  libspace.o(.bss)
+    __temporary_stack_top$libspace           0x10003174   Data           0  libspace.o(.bss)
+
+

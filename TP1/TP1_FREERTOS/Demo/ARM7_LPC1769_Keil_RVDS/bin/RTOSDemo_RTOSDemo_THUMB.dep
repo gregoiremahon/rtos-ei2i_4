@@ -1,0 +1,141 @@
+Dependencies for Project 'RTOSDemo', Target 'RTOSDemo_THUMB': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (.\main.c)(0x5F8CA923)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I . -I ..\..\Source\portable\RVDS\ARM_CM3 -I ..\Common\include -I ..\..\Source\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531" -DKEIL_THUMB_INTERWORK-o .\bin\main.o --omf_browse .\bin\main.crf --depend .\bin\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC7CA5C)
+I (..\..\Source\include\FreeRTOS.h)(0x5CD62451)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\FreeRTOSConfig.h)(0x65157435)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\LPC17xx.h)(0x559D3612)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x5703B072)
+I (..\..\Source\include\projdefs.h)(0x5CD62451)
+I (..\..\Source\include\portable.h)(0x5CD62451)
+I (..\..\Source\include\deprecated_definitions.h)(0x5D86534C)
+I (..\..\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5CD62452)
+I (..\..\Source\include\mpu_wrappers.h)(0x5CD62451)
+I (..\..\Source\include\task.h)(0x5FF74ECD)
+I (..\..\Source\include\list.h)(0x5CD62451)
+I (myTasks.h)(0x5DB5ADBB)
+F (.\myTasks.c)(0x5FF7822C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I . -I ..\..\Source\portable\RVDS\ARM_CM3 -I ..\Common\include -I ..\..\Source\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531" -DKEIL_THUMB_INTERWORK-o .\bin\mytasks.o --omf_browse .\bin\mytasks.crf --depend .\bin\mytasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC7CA5C)
+I (..\..\Source\include\FreeRTOS.h)(0x5CD62451)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\FreeRTOSConfig.h)(0x65157435)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\LPC17xx.h)(0x559D3612)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x5703B072)
+I (..\..\Source\include\projdefs.h)(0x5CD62451)
+I (..\..\Source\include\portable.h)(0x5CD62451)
+I (..\..\Source\include\deprecated_definitions.h)(0x5D86534C)
+I (..\..\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5CD62452)
+I (..\..\Source\include\mpu_wrappers.h)(0x5CD62451)
+I (..\..\Source\include\task.h)(0x5FF74ECD)
+I (..\..\Source\include\list.h)(0x5CD62451)
+I (myTasks.h)(0x5DB5ADBB)
+F (..\..\Source\tasks.c)(0x5DAAF1F8)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I . -I ..\..\Source\portable\RVDS\ARM_CM3 -I ..\Common\include -I ..\..\Source\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531" -DKEIL_THUMB_INTERWORK-o .\bin\tasks.o --omf_browse .\bin\tasks.crf --depend .\bin\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC7CA64)
+I (..\..\Source\include\FreeRTOS.h)(0x5CD62451)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\FreeRTOSConfig.h)(0x65157435)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\LPC17xx.h)(0x559D3612)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x5703B072)
+I (..\..\Source\include\projdefs.h)(0x5CD62451)
+I (..\..\Source\include\portable.h)(0x5CD62451)
+I (..\..\Source\include\deprecated_definitions.h)(0x5D86534C)
+I (..\..\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5CD62452)
+I (..\..\Source\include\mpu_wrappers.h)(0x5CD62451)
+I (..\..\Source\include\task.h)(0x5FF74ECD)
+I (..\..\Source\include\list.h)(0x5CD62451)
+I (..\..\Source\include\timers.h)(0x5CD62451)
+I (..\..\Source\include\stack_macros.h)(0x5CD62451)
+F (..\..\Source\list.c)(0x5CD62451)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I . -I ..\..\Source\portable\RVDS\ARM_CM3 -I ..\Common\include -I ..\..\Source\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531" -DKEIL_THUMB_INTERWORK-o .\bin\list.o --omf_browse .\bin\list.crf --depend .\bin\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC7CA5C)
+I (..\..\Source\include\FreeRTOS.h)(0x5CD62451)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\FreeRTOSConfig.h)(0x65157435)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\LPC17xx.h)(0x559D3612)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x5703B072)
+I (..\..\Source\include\projdefs.h)(0x5CD62451)
+I (..\..\Source\include\portable.h)(0x5CD62451)
+I (..\..\Source\include\deprecated_definitions.h)(0x5D86534C)
+I (..\..\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5CD62452)
+I (..\..\Source\include\mpu_wrappers.h)(0x5CD62451)
+I (..\..\Source\include\list.h)(0x5CD62451)
+F (..\..\Source\queue.c)(0x5CD62452)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I . -I ..\..\Source\portable\RVDS\ARM_CM3 -I ..\Common\include -I ..\..\Source\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531" -DKEIL_THUMB_INTERWORK-o .\bin\queue.o --omf_browse .\bin\queue.crf --depend .\bin\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC7CA64)
+I (..\..\Source\include\FreeRTOS.h)(0x5CD62451)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\FreeRTOSConfig.h)(0x65157435)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\LPC17xx.h)(0x559D3612)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x5703B072)
+I (..\..\Source\include\projdefs.h)(0x5CD62451)
+I (..\..\Source\include\portable.h)(0x5CD62451)
+I (..\..\Source\include\deprecated_definitions.h)(0x5D86534C)
+I (..\..\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5CD62452)
+I (..\..\Source\include\mpu_wrappers.h)(0x5CD62451)
+I (..\..\Source\include\task.h)(0x5FF74ECD)
+I (..\..\Source\include\list.h)(0x5CD62451)
+I (..\..\Source\include\queue.h)(0x5CD62451)
+F (..\..\Source\portable\MemMang\heap_2.c)(0x5CD62452)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I . -I ..\..\Source\portable\RVDS\ARM_CM3 -I ..\Common\include -I ..\..\Source\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531" -DKEIL_THUMB_INTERWORK-o .\bin\heap_2.o --omf_browse .\bin\heap_2.crf --depend .\bin\heap_2.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC7CA5C)
+I (..\..\Source\include\FreeRTOS.h)(0x5CD62451)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\FreeRTOSConfig.h)(0x65157435)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\LPC17xx.h)(0x559D3612)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x5703B072)
+I (..\..\Source\include\projdefs.h)(0x5CD62451)
+I (..\..\Source\include\portable.h)(0x5CD62451)
+I (..\..\Source\include\deprecated_definitions.h)(0x5D86534C)
+I (..\..\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5CD62452)
+I (..\..\Source\include\mpu_wrappers.h)(0x5CD62451)
+I (..\..\Source\include\task.h)(0x5FF74ECD)
+I (..\..\Source\include\list.h)(0x5CD62451)
+F (..\..\Source\portable\RVDS\ARM_CM3\port.c)(0x5FF74E4C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I . -I ..\..\Source\portable\RVDS\ARM_CM3 -I ..\Common\include -I ..\..\Source\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531" -DKEIL_THUMB_INTERWORK-o .\bin\port.o --omf_browse .\bin\port.crf --depend .\bin\port.d)
+I (..\..\Source\include\FreeRTOS.h)(0x5CD62451)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (.\FreeRTOSConfig.h)(0x65157435)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\LPC17xx.h)(0x559D3612)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x5703B072)
+I (..\..\Source\include\projdefs.h)(0x5CD62451)
+I (..\..\Source\include\portable.h)(0x5CD62451)
+I (..\..\Source\include\deprecated_definitions.h)(0x5D86534C)
+I (..\..\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5CD62452)
+I (..\..\Source\include\mpu_wrappers.h)(0x5CD62451)
+I (..\..\Source\include\task.h)(0x5FF74ECD)
+I (..\..\Source\include\list.h)(0x5CD62451)
+F (.\start\keil_freertos_startup_lpc17xx40xx.s)(0x5F8C6D83)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I ..\..\Source\portable\RVDS\ARM_CM3-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx--pd "__UVISION_VERSION SETA 531"--list .\listing_output\keil_freertos_startup_lpc17xx40xx.lst --xref -o .\bin\keil_freertos_startup_lpc17xx40xx.o --depend .\bin\keil_freertos_startup_lpc17xx40xx.d)
+F (.\start\system_LPC17xx.c)(0x5F8EB5D4)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I . -I ..\..\Source\portable\RVDS\ARM_CM3 -I ..\Common\include -I ..\..\Source\include-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="531" -DKEIL_THUMB_INTERWORK-o .\bin\system_lpc17xx.o --omf_browse .\bin\system_lpc17xx.crf --depend .\bin\system_lpc17xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7CA5C)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\LPC17xx.h)(0x559D3612)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h)(0x559D3FFA)
+I (C:\Keil_v5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h)(0x5703B072)
