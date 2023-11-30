@@ -18,7 +18,7 @@ typedef tskTCB TCB_t;
 // variables indispensables pour faire tourner notre OS
 // penser � les recopier dans les variable externes
 TCB_t * pxCurrentTCB;
-uint32_t TickCount=0;
+uint32_t TickCount=0; // incrémentée à chaque interruption
 
 // d�finir le nombre fixe de t�che utilis�es sans compter idle...
 #define NBTASK 2
@@ -179,6 +179,43 @@ void Task_kill()
 	
 	
 }*/
+__asm void vPortSVCHandler( void )
+{
+	PRESERVE8
+	extern pxCurrentTCB
+	ldr	r3, = pxCurrentTCB	/* Restore the context. */
+	ldr r1, [r3]			/* Use pxCurrentTCBConst to get the pxCurrentTCB address. */
+	ldr r0, [r1]			/* The first item in pxCurrentTCB is the task top of stack. */
+	ldmia r0!, {r4-r11}		/* Pop the registers that are not automatically saved on exception entry and the critical nesting count. */
+	msr psp, r0				/* Restore the task stack pointer. */
+	isb
+	mov r0, #0
+	msr	basepri, r0
+	orr r14, #0xd
+	bx r14
+}
+__asm void prvStartFirstTask( void )
+{
+	PRESERVE8
+
+	/* Use the NVIC offset register to locate the stack. */
+	ldr r0, =0xE000ED08
+	ldr r0, [r0]
+	ldr r0, [r0]
+
+	/* Set the msp back to the start of the stack. */
+	msr msp, r0
+	/* Globally enable interrupts. */
+	cpsie i
+	cpsie f
+	dsb
+	isb
+	/* Call SVC to start the first task. */
+	svc 0
+	nop
+	nop
+}
+
 
 void Task_create(void * pxFunctionName, TCB_t *pxTCB, uint32_t *plStack, uint32_t stackSize, uint32_t priority, void *pxParam) {
     // Pointe vers le haut de la pile (en tenant compte de la d�cr�mentation pr�alable)
@@ -322,7 +359,7 @@ void lancement_OS(void)
 
 	
 	// lancer la premi�re t�che
-	
+	prvStartFirstTask(); // Fonction récupérée dans le code de FreeRTOS 'Port.c' Ligne 225.
 	
 	// si on quitte, on est plant�...
 }

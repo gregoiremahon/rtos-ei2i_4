@@ -5016,7 +5016,7 @@ typedef tskTCB TCB_t;
 
 
 TCB_t * pxCurrentTCB;
-uint32_t TickCount=0;
+uint32_t TickCount=0; 
 
 
 
@@ -5177,6 +5177,43 @@ void Task_kill()
 
 
  
+__asm void vPortSVCHandler( void )
+{
+	PRESERVE8
+	extern pxCurrentTCB
+	ldr	r3, = pxCurrentTCB	 
+	ldr r1, [r3]			 
+	ldr r0, [r1]			 
+	ldmia r0!, {r4-r11}		 
+	msr psp, r0				 
+	isb
+	mov r0, #0
+	msr	basepri, r0
+	orr r14, #0xd
+	bx r14
+}
+__asm void prvStartFirstTask( void )
+{
+	PRESERVE8
+
+	 
+	ldr r0, =0xE000ED08
+	ldr r0, [r0]
+	ldr r0, [r0]
+
+	 
+	msr msp, r0
+	 
+	cpsie i
+	cpsie f
+	dsb
+	isb
+	 
+	svc 0
+	nop
+	nop
+}
+
 
 void Task_create(void * pxFunctionName, TCB_t *pxTCB, uint32_t *plStack, uint32_t stackSize, uint32_t priority, void *pxParam) {
     
@@ -5320,7 +5357,7 @@ void lancement_OS(void)
 
 	
 	
-	
+	prvStartFirstTask(); 
 	
 	
 }
