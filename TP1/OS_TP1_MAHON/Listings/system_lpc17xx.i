@@ -1,117 +1,6 @@
-#line 1 "Irq_OS_TP1.c"
-
-
-
+#line 1 "RTE\\Device\\LPC1769\\system_LPC17xx.c"
  
 
-#line 1 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\Keil\\LPC1700_DFP\\2.7.1\\Device\\Include\\LPC17xx.h"
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
- 
-
-
-
- 
-
- 
-typedef enum IRQn
-{
- 
-  Reset_IRQn                    = -15,       
-  NonMaskableInt_IRQn           = -14,       
-  HardFault_IRQn                = -13,       
-  MemoryManagement_IRQn         = -12,       
-  BusFault_IRQn                 = -11,       
-  UsageFault_IRQn               = -10,       
-  SVCall_IRQn                   = -5,        
-  DebugMonitor_IRQn             = -4,        
-  PendSV_IRQn                   = -2,        
-  SysTick_IRQn                  = -1,        
-
- 
-  WDT_IRQn                      = 0,         
-  TIMER0_IRQn                   = 1,         
-  TIMER1_IRQn                   = 2,         
-  TIMER2_IRQn                   = 3,         
-  TIMER3_IRQn                   = 4,         
-  UART0_IRQn                    = 5,         
-  UART1_IRQn                    = 6,         
-  UART2_IRQn                    = 7,         
-  UART3_IRQn                    = 8,         
-  PWM1_IRQn                     = 9,         
-  I2C0_IRQn                     = 10,        
-  I2C1_IRQn                     = 11,        
-  I2C2_IRQn                     = 12,        
-  SPI_IRQn                      = 13,        
-  SSP0_IRQn                     = 14,        
-  SSP1_IRQn                     = 15,        
-  PLL0_IRQn                     = 16,        
-  RTC_IRQn                      = 17,        
-  EINT0_IRQn                    = 18,        
-  EINT1_IRQn                    = 19,        
-  EINT2_IRQn                    = 20,        
-  EINT3_IRQn                    = 21,        
-  ADC_IRQn                      = 22,        
-  BOD_IRQn                      = 23,        
-  USB_IRQn                      = 24,        
-  CAN_IRQn                      = 25,        
-  DMA_IRQn                      = 26,        
-  I2S_IRQn                      = 27,        
-  ENET_IRQn                     = 28,        
-  RIT_IRQn                      = 29,        
-  MCPWM_IRQn                    = 30,        
-  QEI_IRQn                      = 31,        
-  PLL1_IRQn                     = 32,        
-  USBActivity_IRQn              = 33,        
-  CANActivity_IRQn              = 34,        
-} IRQn_Type;
-
-
-
-
-
-
- 
-
- 
-
-
-
-
-
-#line 1 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\core_cm3.h"
- 
 
 
 
@@ -133,16 +22,16 @@ typedef enum IRQn
 
 
 
+
+
+
+
+
+
+
+
+
  
-
-
-
-
-
-
-
-
-
 
 #line 1 "C:\\Keil_v5\\ARM\\ARMCC\\Bin\\..\\include\\stdint.h"
  
@@ -400,41 +289,8 @@ typedef unsigned     long long uintmax_t;
 
 
  
-#line 35 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\core_cm3.h"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
- 
-
-
-
- 
-
-#line 1 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\cmsis_version.h"
- 
-
-
-
-
+#line 36 "RTE\\Device\\LPC1769\\system_LPC17xx.c"
+#line 1 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\Keil\\LPC1700_DFP\\2.7.1\\Device\\Include\\LPC17xx.h"
  
 
 
@@ -442,90 +298,6 @@ typedef unsigned     long long uintmax_t;
 
 
 
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
- 
-#line 64 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\core_cm3.h"
-
- 
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-#line 114 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\core_cm3.h"
-
-#line 1 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\cmsis_compiler.h"
- 
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-#line 29 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\cmsis_compiler.h"
-
-
-
- 
-#line 1 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\cmsis_armcc.h"
- 
-
-
-
-
- 
 
 
 
@@ -556,131 +328,60 @@ typedef unsigned     long long uintmax_t;
 
 
 
-
-
-
-
-
-
-
-
-
-
-   
-   
-   
-
  
 
-
-
-
  
-#line 111 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\cmsis_armcc.h"
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
- 
-
-
-
-
- 
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
- 
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
- 
-
-__attribute__((section(".rev16_text"))) static __inline __asm uint32_t __REV16(uint32_t value)
+typedef enum IRQn
 {
-  rev16 r0, r0
-  bx lr
-}
+ 
+  Reset_IRQn                    = -15,       
+  NonMaskableInt_IRQn           = -14,       
+  HardFault_IRQn                = -13,       
+  MemoryManagement_IRQn         = -12,       
+  BusFault_IRQn                 = -11,       
+  UsageFault_IRQn               = -10,       
+  SVCall_IRQn                   = -5,        
+  DebugMonitor_IRQn             = -4,        
+  PendSV_IRQn                   = -2,        
+  SysTick_IRQn                  = -1,        
 
-
+ 
+  WDT_IRQn                      = 0,         
+  TIMER0_IRQn                   = 1,         
+  TIMER1_IRQn                   = 2,         
+  TIMER2_IRQn                   = 3,         
+  TIMER3_IRQn                   = 4,         
+  UART0_IRQn                    = 5,         
+  UART1_IRQn                    = 6,         
+  UART2_IRQn                    = 7,         
+  UART3_IRQn                    = 8,         
+  PWM1_IRQn                     = 9,         
+  I2C0_IRQn                     = 10,        
+  I2C1_IRQn                     = 11,        
+  I2C2_IRQn                     = 12,        
+  SPI_IRQn                      = 13,        
+  SSP0_IRQn                     = 14,        
+  SSP1_IRQn                     = 15,        
+  PLL0_IRQn                     = 16,        
+  RTC_IRQn                      = 17,        
+  EINT0_IRQn                    = 18,        
+  EINT1_IRQn                    = 19,        
+  EINT2_IRQn                    = 20,        
+  EINT3_IRQn                    = 21,        
+  ADC_IRQn                      = 22,        
+  BOD_IRQn                      = 23,        
+  USB_IRQn                      = 24,        
+  CAN_IRQn                      = 25,        
+  DMA_IRQn                      = 26,        
+  I2S_IRQn                      = 27,        
+  ENET_IRQn                     = 28,        
+  RIT_IRQn                      = 29,        
+  MCPWM_IRQn                    = 30,        
+  QEI_IRQn                      = 31,        
+  PLL1_IRQn                     = 32,        
+  USBActivity_IRQn              = 33,        
+  CANActivity_IRQn              = 34,        
+} IRQn_Type;
 
 
 
@@ -689,16 +390,14 @@ __attribute__((section(".rev16_text"))) static __inline __asm uint32_t __REV16(u
 
  
 
-__attribute__((section(".revsh_text"))) static __inline __asm int16_t __REVSH(int16_t value)
-{
-  revsh r0, r0
-  bx lr
-}
+ 
 
 
 
 
 
+#line 1 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\core_cm3.h"
+ 
 
 
 
@@ -706,70 +405,6 @@ __attribute__((section(".revsh_text"))) static __inline __asm int16_t __REVSH(in
  
 
 
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
- 
-#line 277 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\cmsis_armcc.h"
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
- 
 
 
 
@@ -795,6 +430,37 @@ __attribute__((section(".revsh_text"))) static __inline __asm int16_t __REVSH(in
 
 
 
+#line 35 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\core_cm3.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+ 
+
+#line 1 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\cmsis_version.h"
+ 
 
 
 
@@ -814,15 +480,6 @@ __attribute__((section(".revsh_text"))) static __inline __asm int16_t __REVSH(in
 
 
 
- 
-
-
-
-
-
-
-
-
 
 
  
@@ -835,15 +492,9 @@ __attribute__((section(".revsh_text"))) static __inline __asm int16_t __REVSH(in
 
 
 
+
  
-
-
-
-
-
-
-
-
+#line 64 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\core_cm3.h"
 
  
 
@@ -857,11 +508,62 @@ __attribute__((section(".revsh_text"))) static __inline __asm int16_t __REVSH(in
 
  
 
-__attribute__((section(".rrx_text"))) static __inline __asm uint32_t __RRX(uint32_t value)
-{
-  rrx r0, r0
-  bx lr
-}
+
+
+
+
+
+
+#line 114 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\core_cm3.h"
+
+#line 1 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\cmsis_compiler.h"
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+#line 29 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\cmsis_compiler.h"
+
+
+
+ 
+#line 1 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\cmsis_armcc.h"
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
 
 
 
@@ -879,14 +581,6 @@ __attribute__((section(".rrx_text"))) static __inline __asm uint32_t __RRX(uint3
 
 
 
- 
-
-
-
-
-
-
-
 
  
 
@@ -897,30 +591,43 @@ __attribute__((section(".rrx_text"))) static __inline __asm uint32_t __RRX(uint3
 
 
 
- 
 
 
 
 
-
-
-
-
- 
-
-
-
-
-
-
-
-
- 
-
-
-#line 525 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\cmsis_armcc.h"
 
    
+   
+   
+
+ 
+
+
+
+
+ 
+#line 111 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\cmsis_armcc.h"
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  
@@ -965,7 +672,6 @@ static __inline void __set_CONTROL(uint32_t control)
 {
   register uint32_t __regControl         __asm("control");
   __regControl = control;
-  __isb(0xF);
 }
 
 
@@ -1203,41 +909,8 @@ static __inline void __set_FPSCR(uint32_t fpscr)
 
  
 
-#line 885 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\cmsis_armcc.h"
- 
 
 
-#line 35 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\cmsis_compiler.h"
-
-
-
-
- 
-#line 280 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\cmsis_compiler.h"
-
-
-
-
-#line 116 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\core_cm3.h"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-#line 160 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\core_cm3.h"
 
  
 
@@ -1247,7 +920,363 @@ static __inline void __set_FPSCR(uint32_t fpscr)
 
 
  
-#line 176 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\core_cm3.h"
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+                  
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+__attribute__((section(".rev16_text"))) static __inline __asm uint32_t __REV16(uint32_t value)
+{
+  rev16 r0, r0
+  bx lr
+}
+
+
+
+
+
+
+
+
+ 
+
+__attribute__((section(".revsh_text"))) static __inline __asm int16_t __REVSH(int16_t value)
+{
+  revsh r0, r0
+  bx lr
+}
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+#line 550 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\cmsis_armcc.h"
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+__attribute__((section(".rrx_text"))) static __inline __asm uint32_t __RRX(uint32_t value)
+{
+  rrx r0, r0
+  bx lr
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+#line 798 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\cmsis_armcc.h"
+
+   
+
+
+ 
+
+
+
+ 
+
+#line 882 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\cmsis_armcc.h"
+ 
+
+
+#line 35 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\cmsis_compiler.h"
+
+
+
+
+ 
+#line 280 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\cmsis_compiler.h"
+
+
+
+
+#line 116 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\core_cm3.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+#line 160 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\core_cm3.h"
+
+ 
+
+
+
+
+
+
+ 
+#line 176 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\core_cm3.h"
 
  
 
@@ -1524,7 +1553,7 @@ typedef struct
 
 
  
-#line 462 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\core_cm3.h"
+#line 462 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\core_cm3.h"
 
  
 
@@ -1739,7 +1768,7 @@ typedef struct
 
 
  
-#line 692 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\core_cm3.h"
+#line 692 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\core_cm3.h"
 
  
 
@@ -2428,20 +2457,9 @@ typedef struct
  
 
  
-#line 1388 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\core_cm3.h"
+#line 1388 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\core_cm3.h"
 
-#line 1397 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\core_cm3.h"
-
-
-
-
-
-
- 
-
-
-
-
+#line 1397 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\core_cm3.h"
 
 
 
@@ -2451,6 +2469,17 @@ typedef struct
  
 
 
+
+
+
+
+
+
+
+
+ 
+
+
  
 
 
@@ -2463,9 +2492,9 @@ typedef struct
 
  
 
-#line 1448 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\core_cm3.h"
+#line 1448 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\core_cm3.h"
 
-#line 1458 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\core_cm3.h"
+#line 1458 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\core_cm3.h"
 
 
 
@@ -2792,7 +2821,7 @@ __declspec(noreturn) static __inline void __NVIC_SystemReset(void)
 
 
 
-#line 1 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\mpu_armv7.h"
+#line 1 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\mpu_armv7.h"
 
 
 
@@ -2826,9 +2855,9 @@ __declspec(noreturn) static __inline void __NVIC_SystemReset(void)
 
 
 
-#line 62 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\mpu_armv7.h"
+#line 62 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\mpu_armv7.h"
 
-#line 69 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\mpu_armv7.h"
+#line 69 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\mpu_armv7.h"
 
 
 
@@ -2863,7 +2892,7 @@ __declspec(noreturn) static __inline void __NVIC_SystemReset(void)
 
 
  
-#line 110 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\mpu_armv7.h"
+#line 110 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\mpu_armv7.h"
 
 
 
@@ -3029,7 +3058,7 @@ static __inline void ARM_MPU_Load(ARM_MPU_Region_t const* table, uint32_t cnt)
   ARM_MPU_OrderedMemcpy(&(((MPU_Type *) ((0xE000E000UL) + 0x0D90UL) )->RBAR), &(table->RBAR), cnt*rowWordSize);
 }
 
-#line 1785 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\core_cm3.h"
+#line 1785 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\core_cm3.h"
 
 
 
@@ -4102,38 +4131,481 @@ typedef struct
 
  
 
-#line 7 "Irq_OS_TP1.c"
-
-extern volatile uint8_t  clock_1s;   
-
-unsigned long ticks = 10;
+#line 37 "RTE\\Device\\LPC1769\\system_LPC17xx.c"
 
 
 
  
-void SysTickHandler (void) {
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+#line 308 "RTE\\Device\\LPC1769\\system_LPC17xx.c"
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+#line 425 "RTE\\Device\\LPC1769\\system_LPC17xx.c"
+
+
+
+
+
+ 
+uint32_t SystemCoreClock = (((2ULL * (((0x00050063 ) & 0x7FFF) + 1) * ( (12000000UL))) / (((0x00050063 >> 16) & 0x00FF) + 1)) / (((0x00000003 ) & 0x00FF) + 1));
+
+
+
+
+ 
+void SystemCoreClockUpdate (void)                
+{
+   
+  if (((((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PLL0STAT >> 24) & 3) == 3) {  
+    switch (((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->CLKSRCSEL & 0x03) {
+      case 0:                                 
+      case 3:                                 
+        SystemCoreClock = (( 4000000UL) *
+                          ((2ULL * ((((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PLL0STAT & 0x7FFF) + 1)))  /
+                          (((((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PLL0STAT >> 16) & 0xFF) + 1)       /
+                          ((((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->CCLKCFG & 0xFF)+ 1));
+        break;
+      case 1:                                 
+        SystemCoreClock = (( (12000000UL)) *
+                          ((2ULL * ((((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PLL0STAT & 0x7FFF) + 1)))  /
+                          (((((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PLL0STAT >> 16) & 0xFF) + 1)       /
+                          ((((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->CCLKCFG & 0xFF)+ 1));
+        break;
+      case 2:                                 
+        SystemCoreClock = (( 32768UL) *
+                          ((2ULL * ((((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PLL0STAT & 0x7FFF) + 1)))  /
+                          (((((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PLL0STAT >> 16) & 0xFF) + 1)       /
+                          ((((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->CCLKCFG & 0xFF)+ 1));
+        break;
+    }
+  } else {
+    switch (((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->CLKSRCSEL & 0x03) {
+      case 0:                                 
+      case 3:                                 
+        SystemCoreClock = ( 4000000UL) / ((((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->CCLKCFG & 0xFF)+ 1);
+        break;
+      case 1:                                 
+        SystemCoreClock = ( (12000000UL)) / ((((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->CCLKCFG & 0xFF)+ 1);
+        break;
+      case 2:                                 
+        SystemCoreClock = ( 32768UL) / ((((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->CCLKCFG & 0xFF)+ 1);
+        break;
+    }
+  }
 
 }
 
 
 
  
-void PendSVHandler (void) {
-	
-	
-	
+void SystemInit (void)
+{
 
-}
+  ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->SCS       = 0x00000020;
+  if (((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->SCS & (1 << 5)) {              
+    while ((((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->SCS & (1<<6)) == 0); 
+  }
 
-
+  ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->CCLKCFG   = 0x00000003;       
+  
 
  
-void SVCHandler (void) {
-	
-	
-	
+  ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PCLKSEL0  = 0x00000000;      
+  ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PCLKSEL1  = 0x00000000;
+
+  ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->CLKSRCSEL = 0x00000001;     
+
+
+  ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PLL0CFG   = 0x00050063;       
+  ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PLL0FEED  = 0xAA;
+  ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PLL0FEED  = 0x55;
+
+  ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PLL0CON   = 0x01;              
+  ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PLL0FEED  = 0xAA;
+  ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PLL0FEED  = 0x55;
+  while (!(((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PLL0STAT & (1<<26))); 
+
+  ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PLL0CON   = 0x03;              
+  ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PLL0FEED  = 0xAA;
+  ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PLL0FEED  = 0x55;
+  while ((((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PLL0STAT & ((1<<25) | (1<<24))) != ((1<<25) | (1<<24)));   
+
+
+
+  ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PLL1CFG   = 0x00000023;
+  ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PLL1FEED  = 0xAA;
+  ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PLL1FEED  = 0x55;
+
+  ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PLL1CON   = 0x01;              
+  ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PLL1FEED  = 0xAA;
+  ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PLL1FEED  = 0x55;
+  while (!(((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PLL1STAT & (1<<10))); 
+
+  ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PLL1CON   = 0x03;              
+  ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PLL1FEED  = 0xAA;
+  ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PLL1FEED  = 0x55;
+  while ((((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PLL1STAT & ((1<< 9) | (1<< 8))) != ((1<< 9) | (1<< 8)));   
+
+
+
+
+  ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PCONP     = 0x042887DE;         
+
+  ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->CLKOUTCFG = 0x00000000;     
+
+
+
+  ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->FLASHCFG  = (((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->FLASHCFG & ~0x0000F000) | 0x00004000;
 
 }

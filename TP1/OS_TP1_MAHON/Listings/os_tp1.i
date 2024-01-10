@@ -1,5 +1,16 @@
 #line 1 "OS_TP1.c"
 
+
+
+
+
+
+
+
+
+ 
+
+
 #line 1 "C:\\Keil_v5\\ARM\\ARMCC\\Bin\\..\\include\\stdio.h"
  
  
@@ -899,7 +910,7 @@ extern __declspec(__nothrow) void __use_no_semihosting(void);
 
  
 
-#line 3 "OS_TP1.c"
+#line 14 "OS_TP1.c"
 #line 1 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\Keil\\LPC1700_DFP\\2.7.1\\Device\\Include\\LPC17xx.h"
  
 
@@ -1006,7 +1017,7 @@ typedef enum IRQn
 
 
 
-#line 1 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\core_cm3.h"
+#line 1 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\core_cm3.h"
  
 
 
@@ -1296,7 +1307,7 @@ typedef unsigned     long long uintmax_t;
 
 
  
-#line 35 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\core_cm3.h"
+#line 35 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\core_cm3.h"
 
 
 
@@ -1325,7 +1336,7 @@ typedef unsigned     long long uintmax_t;
 
  
 
-#line 1 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\cmsis_version.h"
+#line 1 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\cmsis_version.h"
  
 
 
@@ -1360,7 +1371,7 @@ typedef unsigned     long long uintmax_t;
 
 
  
-#line 64 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\core_cm3.h"
+#line 64 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\core_cm3.h"
 
  
 
@@ -1380,9 +1391,9 @@ typedef unsigned     long long uintmax_t;
 
 
 
-#line 114 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\core_cm3.h"
+#line 114 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\core_cm3.h"
 
-#line 1 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\cmsis_compiler.h"
+#line 1 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\cmsis_compiler.h"
  
 
 
@@ -1410,12 +1421,12 @@ typedef unsigned     long long uintmax_t;
 
 
 
-#line 29 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\cmsis_compiler.h"
+#line 29 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\cmsis_compiler.h"
 
 
 
  
-#line 1 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\cmsis_armcc.h"
+#line 1 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\cmsis_armcc.h"
  
 
 
@@ -1472,7 +1483,7 @@ typedef unsigned     long long uintmax_t;
 
 
  
-#line 111 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\cmsis_armcc.h"
+#line 111 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\cmsis_armcc.h"
 
  
 
@@ -1494,329 +1505,6 @@ typedef unsigned     long long uintmax_t;
 
 
 
-
-
- 
-
-
-
- 
-
-
-
-
- 
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
- 
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
- 
-
-__attribute__((section(".rev16_text"))) static __inline __asm uint32_t __REV16(uint32_t value)
-{
-  rev16 r0, r0
-  bx lr
-}
-
-
-
-
-
-
-
-
- 
-
-__attribute__((section(".revsh_text"))) static __inline __asm int16_t __REVSH(int16_t value)
-{
-  revsh r0, r0
-  bx lr
-}
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
- 
-#line 277 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\cmsis_armcc.h"
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
- 
-
-__attribute__((section(".rrx_text"))) static __inline __asm uint32_t __RRX(uint32_t value)
-{
-  rrx r0, r0
-  bx lr
-}
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
- 
-
-
-#line 525 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\cmsis_armcc.h"
-
-   
 
 
  
@@ -1861,7 +1549,6 @@ static __inline void __set_CONTROL(uint32_t control)
 {
   register uint32_t __regControl         __asm("control");
   __regControl = control;
-  __isb(0xF);
 }
 
 
@@ -2099,41 +1786,8 @@ static __inline void __set_FPSCR(uint32_t fpscr)
 
  
 
-#line 885 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\cmsis_armcc.h"
- 
 
 
-#line 35 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\cmsis_compiler.h"
-
-
-
-
- 
-#line 280 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\cmsis_compiler.h"
-
-
-
-
-#line 116 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\core_cm3.h"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-#line 160 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\core_cm3.h"
 
  
 
@@ -2143,7 +1797,363 @@ static __inline void __set_FPSCR(uint32_t fpscr)
 
 
  
-#line 176 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\core_cm3.h"
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+                  
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+__attribute__((section(".rev16_text"))) static __inline __asm uint32_t __REV16(uint32_t value)
+{
+  rev16 r0, r0
+  bx lr
+}
+
+
+
+
+
+
+
+
+ 
+
+__attribute__((section(".revsh_text"))) static __inline __asm int16_t __REVSH(int16_t value)
+{
+  revsh r0, r0
+  bx lr
+}
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+#line 550 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\cmsis_armcc.h"
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+__attribute__((section(".rrx_text"))) static __inline __asm uint32_t __RRX(uint32_t value)
+{
+  rrx r0, r0
+  bx lr
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+#line 798 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\cmsis_armcc.h"
+
+   
+
+
+ 
+
+
+
+ 
+
+#line 882 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\cmsis_armcc.h"
+ 
+
+
+#line 35 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\cmsis_compiler.h"
+
+
+
+
+ 
+#line 280 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\cmsis_compiler.h"
+
+
+
+
+#line 116 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\core_cm3.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+#line 160 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\core_cm3.h"
+
+ 
+
+
+
+
+
+
+ 
+#line 176 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\core_cm3.h"
 
  
 
@@ -2420,7 +2430,7 @@ typedef struct
 
 
  
-#line 462 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\core_cm3.h"
+#line 462 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\core_cm3.h"
 
  
 
@@ -2635,7 +2645,7 @@ typedef struct
 
 
  
-#line 692 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\core_cm3.h"
+#line 692 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\core_cm3.h"
 
  
 
@@ -3324,20 +3334,9 @@ typedef struct
  
 
  
-#line 1388 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\core_cm3.h"
+#line 1388 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\core_cm3.h"
 
-#line 1397 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\core_cm3.h"
-
-
-
-
-
-
- 
-
-
-
-
+#line 1397 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\core_cm3.h"
 
 
 
@@ -3347,6 +3346,17 @@ typedef struct
  
 
 
+
+
+
+
+
+
+
+
+ 
+
+
  
 
 
@@ -3359,9 +3369,9 @@ typedef struct
 
  
 
-#line 1448 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\core_cm3.h"
+#line 1448 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\core_cm3.h"
 
-#line 1458 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\core_cm3.h"
+#line 1458 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\core_cm3.h"
 
 
 
@@ -3688,7 +3698,7 @@ __declspec(noreturn) static __inline void __NVIC_SystemReset(void)
 
 
 
-#line 1 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\mpu_armv7.h"
+#line 1 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\mpu_armv7.h"
 
 
 
@@ -3722,9 +3732,9 @@ __declspec(noreturn) static __inline void __NVIC_SystemReset(void)
 
 
 
-#line 62 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\mpu_armv7.h"
+#line 62 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\mpu_armv7.h"
 
-#line 69 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\mpu_armv7.h"
+#line 69 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\mpu_armv7.h"
 
 
 
@@ -3759,7 +3769,7 @@ __declspec(noreturn) static __inline void __NVIC_SystemReset(void)
 
 
  
-#line 110 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\mpu_armv7.h"
+#line 110 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\mpu_armv7.h"
 
 
 
@@ -3925,7 +3935,7 @@ static __inline void ARM_MPU_Load(ARM_MPU_Region_t const* table, uint32_t cnt)
   ARM_MPU_OrderedMemcpy(&(((MPU_Type *) ((0xE000E000UL) + 0x0D90UL) )->RBAR), &(table->RBAR), cnt*rowWordSize);
 }
 
-#line 1785 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.9.0\\CMSIS\\Core\\Include\\core_cm3.h"
+#line 1785 "C:\\Users\\gregm\\AppData\\Local\\Arm\\Packs\\ARM\\CMSIS\\5.7.0\\CMSIS\\Core\\Include\\core_cm3.h"
 
 
 
@@ -4998,378 +5008,177 @@ typedef struct
 
  
 
-#line 4 "OS_TP1.c"
+#line 15 "OS_TP1.c"
+#line 1 "OS_TP1.h"
 
 
-typedef struct tskTaskControlBlock 		
-{
-	
-	
-  
-	uint32_t * pxTopOfStack;
-	uint32_t ulPriority;
-	int32_t lState;
-	uint32_t ulTickRDV;
+
+
+ 
+
+
+
+
+#line 11 "OS_TP1.h"
+
+
+typedef struct tskTaskControlBlock {
+    uint32_t *pxTopOfStack; 
+    uint32_t ulPriority;    
+    int32_t lState;         
+    uint32_t ulTickRDV;     
 } tskTCB;
+
+
+extern tskTCB *pxCurrentTCB;
+extern uint32_t TickCount;
+extern tskTCB liste_TCB[];
+extern uint32_t stack_tache1[];
+extern uint32_t stack_tache2[];
+extern uint32_t stack_idle[];
+
+
+
+
+
+
+void Task_create(void (*pxFunctionName)(), tskTCB *pxTCB, uint32_t *plStack, uint32_t stackSize, uint32_t priority, void *pxParam);
+void Task_Yield(void);
+void Task_idle(void);
+void Task_kill(void);
+void init_gpio(void);
+void actualise_ledV(int consV);
+void actualise_ledB(int consB);
+void actualise_ledR(int consR);
+void init_proc(void);
+void tache1(void);
+void tache2(void);
+void creation_des_taches(void);
+void lancement_OS(void);
+void prvStartFirstTask(void);
+
+#line 16 "OS_TP1.c"
+
 
 typedef tskTCB TCB_t;
 
 
-TCB_t * pxCurrentTCB;
-uint32_t TickCount=0; 
+TCB_t *pxCurrentTCB; 
+uint32_t TickCount = 0; 
+
+TCB_t liste_TCB[2+1]; 
+
+uint32_t stack_tache1[64]; 
+uint32_t stack_tache2[64]; 
+uint32_t stack_idle[64]; 
+
+void Task_Yield(void);
+void Task_kill(void);
 
 
-
-
-TCB_t liste_TCB[2+1];
-
-
-
-
-
-uint32_t stack_tache1[64];
-uint32_t stack_tache2[64];
-uint32_t stack_idle[64];
-
-
-
-
-
-
-
-int i=0;
-int cpt_it=0; 
-unsigned long tempo=0;
-volatile uint8_t  clock_1s=0;
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
-
-void init_gpio()
-{
-  ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PCONP |= (1 << 15); 
-
-
-
-  ((LPC_GPIO_TypeDef *) ((0x2009C000UL) + 0x00060) )->FIODIR |= 0x03<<25;   
-	
-	((LPC_GPIO_TypeDef *) ((0x2009C000UL) + 0x00000) )->FIODIR |= 0x01<<22;   
-	
-
-}
-
-void actualise_ledV(int consV) 
-{  if (consV) {((LPC_GPIO_TypeDef *) ((0x2009C000UL) + 0x00060) )->FIOSET = 1<<25;}
-   else {((LPC_GPIO_TypeDef *) ((0x2009C000UL) + 0x00060) )->FIOCLR = 1<<25;} 
+void init_gpio() {
+    ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PCONP |= (1 << 15);
+    ((LPC_GPIO_TypeDef *) ((0x2009C000UL) + 0x00060) )->FIODIR |= 0x03 << 25; 
+    ((LPC_GPIO_TypeDef *) ((0x2009C000UL) + 0x00000) )->FIODIR |= 0x01 << 22;
 }
 
 
-void actualise_ledB(int consB)
-{ if (consB) {((LPC_GPIO_TypeDef *) ((0x2009C000UL) + 0x00060) )->FIOSET = 1<<26;} 
-  else {((LPC_GPIO_TypeDef *) ((0x2009C000UL) + 0x00060) )->FIOCLR = 1<<26;}
+void actualise_ledV(int consV) {
+    if (consV) ((LPC_GPIO_TypeDef *) ((0x2009C000UL) + 0x00060) )->FIOSET = 1 << 25;
+    else ((LPC_GPIO_TypeDef *) ((0x2009C000UL) + 0x00060) )->FIOCLR = 1 << 25;
 }
 
-void actualise_ledR(int consR)
-{ if (consR) {((LPC_GPIO_TypeDef *) ((0x2009C000UL) + 0x00000) )->FIOSET = 1<<22;} 
-  else {((LPC_GPIO_TypeDef *) ((0x2009C000UL) + 0x00000) )->FIOCLR = 1<<22;}
+void actualise_ledB(int consB) {
+    if (consB) ((LPC_GPIO_TypeDef *) ((0x2009C000UL) + 0x00060) )->FIOSET = 1 << 26;
+    else ((LPC_GPIO_TypeDef *) ((0x2009C000UL) + 0x00060) )->FIOCLR = 1 << 26;
 }
 
-void init_timer0()
-{ ((LPC_SC_TypeDef *) ((0x40080000UL) + 0x7C000) )->PCONP     |= (1 << 1);  
-	((LPC_TIM_TypeDef *) ((0x40000000UL) + 0x04000) )->TCR =0x03;
-  ((LPC_TIM_TypeDef *) ((0x40000000UL) + 0x04000) )->CTCR =0x00;
-  ((LPC_TIM_TypeDef *) ((0x40000000UL) + 0x04000) )->MR0 =128; 
-	((LPC_TIM_TypeDef *) ((0x40000000UL) + 0x04000) )->MCR = 0x03;
-
-	((LPC_TIM_TypeDef *) ((0x40000000UL) + 0x04000) )->TCR =0x01;
+void actualise_ledR(int consR) {
+    if (consR) ((LPC_GPIO_TypeDef *) ((0x2009C000UL) + 0x00000) )->FIOSET = 1 << 22;
+    else ((LPC_GPIO_TypeDef *) ((0x2009C000UL) + 0x00000) )->FIOCLR = 1 << 22;
 }
 
-void TIMER0_IRQHandler(void)
-{ cpt_it++;
-  actualise_ledR(cpt_it); 
-  ((LPC_TIM_TypeDef *) ((0x40000000UL) + 0x04000) )->IR=1; 
-}	
-	
-
-void init_proc()
-{ init_gpio();
-	
-  SysTick_Config(100000);
-	 
-
-}
-
-void Task_Yield()
-{
-	
-
-
-	
-	
-	actualise_ledR(1);
-	actualise_ledR(0);
-	
-}
-void Task_idle( void ) {
-        
-
-        
-        
-        
-
-
-          actualise_ledV(1);
-          actualise_ledV(0);
-          
-          
-        }	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-void Task_kill()
-{ 
-	
-  
-	actualise_ledB(1);
-	actualise_ledB(0);
-}	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-__asm void vPortSVCHandler( void )
-{
-	PRESERVE8
-	extern pxCurrentTCB
-	ldr	r3, = pxCurrentTCB	 
-	ldr r1, [r3]			 
-	ldr r0, [r1]			 
-	ldmia r0!, {r4-r11}		 
-	msr psp, r0				 
-	isb
-	mov r0, #0
-	msr	basepri, r0
-	orr r14, #0xd
-	bx r14
-}
-__asm void prvStartFirstTask( void )
-{
-	PRESERVE8
-
-	 
-	ldr r0, =0xE000ED08
-	ldr r0, [r0]
-	ldr r0, [r0]
-
-	 
-	msr msp, r0
-	 
-	cpsie i
-	cpsie f
-	dsb
-	isb
-	 
-	svc 0
-	nop
-	nop
+void init_proc() {
+    init_gpio();
+    SysTick_Config(100000); 
 }
 
 
-void Task_create(void * pxFunctionName, TCB_t *pxTCB, uint32_t *plStack, uint32_t stackSize, uint32_t priority, void *pxParam) {
-    
-    uint32_t *pwrite_stack = &plStack[stackSize]; 
-
-    
-    
-		    
-	  
-    pwrite_stack--;
-    *pwrite_stack = (uint32_t)0x01000000;   
-	
-    pwrite_stack--;
-    *pwrite_stack = (uint32_t)pxFunctionName & 0xfffffffeUL; 
-
-    pwrite_stack--;
-    *pwrite_stack = (uint32_t)Task_kill;    
-
-    
-    pwrite_stack--;
-    *pwrite_stack = (uint32_t)0x12121212;   
-
-    pwrite_stack--;
-    *pwrite_stack = (uint32_t)0x03030303;   
-
-    pwrite_stack--;
-    *pwrite_stack = (uint32_t)0x02020202;   
-
-    pwrite_stack--;
-    *pwrite_stack = (uint32_t)0x01010101;   
-
-    pwrite_stack--;
-    *pwrite_stack = (uint32_t)pxParam;      
-
-    pwrite_stack--;
-    *pwrite_stack = (uint32_t)0x11111111;   
-
-    pwrite_stack--;
-    *pwrite_stack = (uint32_t)0x10101010;   
-
-    pwrite_stack--;
-    *pwrite_stack = (uint32_t)0x09090909;   
-
-    pwrite_stack--;
-    *pwrite_stack = (uint32_t)0x08080808;   
-
-    pwrite_stack--;
-    *pwrite_stack = (uint32_t)0x07070707;   
-
-    pwrite_stack--;
-    *pwrite_stack = (uint32_t)0x06060606;   
-
-    pwrite_stack--;
-    *pwrite_stack = (uint32_t)0x05050505;   
-
-    pwrite_stack--;
-    *pwrite_stack = (uint32_t)0x04040404;   
+void Task_Yield() {
+    ((SCB_Type *) ((0xE000E000UL) + 0x0D00UL) )->ICSR |= (1UL << 28U);
+}
 
 
-    
+void Task_idle() {
+    while(1) {
+        Task_Yield(); 
+    }
+}
+
+
+void Task_kill() {
+    while(1);
+}
+
+
+void Task_create(void (*pxFunctionName)(), TCB_t *pxTCB, uint32_t *plStack, uint32_t stackSize, uint32_t priority, void *pxParam) {
+    int i; 
+    uint32_t *pwrite_stack = &plStack[stackSize - 1];
+
+    *(--pwrite_stack) = (uint32_t)0x01000000;  
+    *(--pwrite_stack) = (uint32_t)pxFunctionName;  
+    *(--pwrite_stack) = (uint32_t)Task_kill;  
+
+    for (i = 12; i > 0; i--) {
+        *(--pwrite_stack) = (uint32_t)(i * 0x01010101);  
+    }
+
     pxTCB->pxTopOfStack = pwrite_stack;
     pxTCB->ulPriority = priority;
-    pxTCB->lState = priority; 
-    
-
- 
-    pxTCB->ulTickRDV = TickCount; 
+    pxTCB->lState = 1;  
+    pxTCB->ulTickRDV = TickCount;
 }
 
-void tache1(){
 
+void tache1() {
     printf("On est dans la tache1\n");
-
 }
 
-void tache2(){
-
+void tache2() {
     printf("On est dans la tache2\n");
+}
 
+void creation_des_taches() {
+    Task_create(tache1, &liste_TCB[0], stack_tache1, 64, 1, 0);
+    Task_create(tache2, &liste_TCB[1], stack_tache2, 64, 2, 0);
+    Task_create(Task_idle, &liste_TCB[2], stack_idle, 64, 0, 0);
 }
 
 
-
-
-
-
-
- 
-
-void creation_des_taches(void)
-{    
-    
-    Task_create(
-        tache1,     									
-        &liste_TCB[0],                
-        stack_tache1,                 
-        64,                    
-        1,                            
-        0                          
-    );
-
-    
-    Task_create(
-        tache2,     									
-        &liste_TCB[1],                
-        stack_tache2,                 
-        64,                    
-        2,                            
-        0                          
-    );
-
-    
-    Task_create(
-        (void (*)(void *))Task_idle,  
-        &liste_TCB[2],           
-        stack_idle,                   
-        64,                    
-        0,                            
-        0                          
-    );
+__asm void prvStartFirstTask(void) {
+	
+    PRESERVE8
+    LDR R0, =0xE000ED08
+    LDR R0, [R0]
+    LDR R0, [R0]
+    MSR MSP, R0
+    CPSIE I
+    CPSIE F
+    DSB
+    ISB
+    SVC 0
+    NOP
+    NOP
 }
 
-
-
-void lancement_OS(void)
-{
- 
- 
-  
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-	
-	
-	prvStartFirstTask(); 
-	
-	
+void lancement_OS() {
+    creation_des_taches(); 
+    pxCurrentTCB = &liste_TCB[0]; 
+    prvStartFirstTask();
 }
-void gestion_plantage_OS(void)
-{
-	while(1) ; 
-}	
-int main (void) {
-  init_proc();
-	
- 	 
-	creation_des_taches();
-  lancement_OS();
-	gestion_plantage_OS();
+
+int main(void) {
+    init_proc();
+    lancement_OS();
+    while(1); 
 }
